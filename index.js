@@ -6,9 +6,7 @@ hola("queshow");
 
 //si
 
-let a = 1;
-let b = 2;
-var c = (a ,b ) => {
-    return a + b;
+var d = (c = 1, b = 1) => {
+    return b + c;
 }
-console.log(c);
+console.log(d());
